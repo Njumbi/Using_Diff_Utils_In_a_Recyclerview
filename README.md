@@ -1,6 +1,6 @@
 
 # Using DiffUtils In A Recyclerview
-This is an application that is  part of a technical article. You can read the article from here
+This is an application that is  part of a technical article. You can read the article from [Using DiffUtil In A RecyclerView]()
 # Table Of Contents
 
 * [About the App](#AboutTheApp)
@@ -26,8 +26,7 @@ The app displays a list of Disney character names and images using DiffUtils:
 
 ## General Preview
 
-<a href="url">< height="550"  ></a>
-
+<img src="https://raw.githubusercontent.com/Njumbi/Using_Diff_Utils_In_a_Recyclerview/master/app/src/main/res/drawable/screenshot.png" height="50%" width="50%" title="explore" />
 ## Permissions
 
 You need to allow the internet permissions before running the app:
@@ -37,15 +36,13 @@ You need to allow the internet permissions before running the app:
 Clone the project
 
 ```bash
-
+    https://github.com/Njumbi/Using_Diff_Utils_In_a_Recyclerview.git
 ```
 ## Run Project
 
 Go to android studio compile and install dependencies
 
 Run the app on your emulator or device
-
-
 
 ## Dependencies
 
