@@ -27,6 +27,7 @@ The app displays a list of Disney character names and images using DiffUtils:
 ## General Preview
 
 <img src="https://raw.githubusercontent.com/Njumbi/Using_Diff_Utils_In_a_Recyclerview/master/app/src/main/res/drawable/screenshot.png" height="50%" width="50%" title="explore" />
+
 ## Permissions
 
 You need to allow the internet permissions before running the app:
