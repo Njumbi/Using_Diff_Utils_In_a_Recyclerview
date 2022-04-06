@@ -1,6 +1,6 @@
 
 # Using DiffUtils In A Recyclerview
-This is an application that is  part of a technical article. You can read the article from here
+This is an application that is  part of a technical article. You can read the article from [Using DiffUtil In A RecyclerView]()
 # Table Of Contents
 
 * [About the App](#AboutTheApp)
