@@ -1,13 +1,13 @@
 package com.example.diff_utils_recyclerview_example.data.responses
 
-data class CharactersResponse(
+data class CharactersDto(
     val count: Int,
-    val `data`: List<DataResponse>,
+    val `data`: List<CharacterDataDto>,
     val nextPage: String,
     val totalPages: Int
 )
 
-data class DataResponse(
+data class CharacterDataDto(
     var id: Int,
     val allies: List<Any>,
     val enemies: List<Any>,
