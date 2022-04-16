@@ -7,30 +7,30 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.diff_utils_recyclerview_example.data.repository.CharactersRepo
 import com.example.diff_utils_recyclerview_example.data.responses.ApiResource
-import com.example.diff_utils_recyclerview_example.data.responses.CharactersResponse
-import com.example.diff_utils_recyclerview_example.data.responses.DataResponse
+import com.example.diff_utils_recyclerview_example.domain.models.CharacterModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class fetchCharactersViewModel @Inject constructor(val charactersRepo: CharactersRepo): ViewModel() {
+class fetchCharactersViewModel @Inject constructor(val charactersRepo: CharactersRepo) :
+    ViewModel() {
 
-    private val _fetchCharacters = MutableLiveData<CharactersResponse>()
-    val fetchCharacters: LiveData<CharactersResponse>get() = _fetchCharacters
+    private val _fetchCharacters = MutableLiveData<CharacterModel>()
+    val fetchCharacters: LiveData<CharacterModel> get() = _fetchCharacters
 
     private val _errorResponse = MutableLiveData<String>()
     val errorResponse: LiveData<String> get() = _errorResponse
 
-    fun getCharacters(){
+    fun getCharacters() {
         viewModelScope.launch {
-        val charactersResponse = charactersRepo.getCharacters()
-            Log.d("----->",charactersResponse.toString())
-            when(charactersResponse){
-                is ApiResource.Success ->{
+            val charactersResponse = charactersRepo.getCharacters()
+            Log.d("----->", charactersResponse.toString())
+            when (charactersResponse) {
+                is ApiResource.Success -> {
                     _fetchCharacters.postValue(charactersResponse.value!!)
                 }
-                is ApiResource.Error ->{
+                is ApiResource.Error -> {
                     _errorResponse.postValue(charactersResponse.errorBody.toString())
                 }
             }
