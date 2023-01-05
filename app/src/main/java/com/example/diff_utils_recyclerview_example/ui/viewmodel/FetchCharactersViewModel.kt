@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class fetchCharactersViewModel @Inject constructor(val charactersRepo: CharactersRepo) :
+class FetchCharactersViewModel @Inject constructor(val charactersRepo: CharactersRepo) :
     ViewModel() {
 
     private val _fetchCharacters = MutableLiveData<CharacterModel>()
@@ -33,6 +33,7 @@ class fetchCharactersViewModel @Inject constructor(val charactersRepo: Character
                 is ApiResource.Error -> {
                     _errorResponse.postValue(charactersResponse.errorBody.toString())
                 }
+                else -> {}
             }
         }
     }

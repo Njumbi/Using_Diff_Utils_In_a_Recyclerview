@@ -1,6 +1,7 @@
+
 package com.example.diff_utils_recyclerview_example.ui.adapters
 
-import android.view.LayoutInflater
+/*import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
@@ -60,4 +61,5 @@ class CharactersAdapter : RecyclerView.Adapter<CharactersAdapter.CharactersAdapt
     override fun getItemCount(): Int {
         return asyncListDiffer.currentList.size
     }
-}
+
+}*/
