@@ -1,6 +1,4 @@
 
-# Using DiffUtils In A Recyclerview
-This is an application that is  part of a technical article. You can read the article from [Using DiffUtil In A RecyclerView](https://medium.com/@wambuinjumbi/using-diffutil-in-a-recyclerview-da38d64c83f2)
 # Table Of Contents
 
 * [About the App](#AboutTheApp)
@@ -22,11 +20,11 @@ This is an application that is  part of a technical article. You can read the ar
 * [License](#license)
 
 ## About the App
-The app displays a list of Disney character names and images using DiffUtils:
+The app displays a list of Disney character names and images using Compose:
 
 ## General Preview
 
-<img src="https://raw.githubusercontent.com/Njumbi/Using_Diff_Utils_In_a_Recyclerview/master/app/src/main/res/drawable/screenshot.png" height="50%" width="50%" title="explore" />
+<img src =" " "height="50%" width="50%" title="explore" />
 
 ## Permissions
 
@@ -58,6 +56,10 @@ Run the app on your emulator or device
 - view binding
 
 - Live Data
+
+- Compose
+
+- Flow
 
 ## Contributing
 
