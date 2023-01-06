@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.accompanist:accompanist-drawablepainter:0.25.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f31f06ebdf806c3224b535959f501a81/transformed/accompanist-drawablepainter-0.25.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f31f06ebdf806c3224b535959f501a81/transformed/accompanist-drawablepainter-0.25.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-drawablepainter/0.25.1/99de2c2598ceb5dd83509d4a6a990c452bd726dc/accompanist-drawablepainter-0.25.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-drawablepainter/0.25.1/aa7c4f573009a5dd510b0c8051b11318c141600a/accompanist-drawablepainter-0.25.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

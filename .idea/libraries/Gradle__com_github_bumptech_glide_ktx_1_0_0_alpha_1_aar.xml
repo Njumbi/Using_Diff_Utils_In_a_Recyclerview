@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:ktx:1.0.0-alpha.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8ba3cbd77b6f5d99187c8e0879c7ed2f/transformed/ktx-1.0.0-alpha.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ba3cbd77b6f5d99187c8e0879c7ed2f/transformed/ktx-1.0.0-alpha.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/ktx/1.0.0-alpha.1/62b4836a1376cc7baa8d752cb266401719bb23e6/ktx-1.0.0-alpha.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/ktx/1.0.0-alpha.1/c721e3d2005569b9ee20d280f3ac7cb324d3d4bf/ktx-1.0.0-alpha.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
