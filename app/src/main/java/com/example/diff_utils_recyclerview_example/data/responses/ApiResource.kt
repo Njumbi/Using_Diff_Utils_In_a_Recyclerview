@@ -4,6 +4,7 @@ import com.bumptech.glide.load.HttpException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
+/*
 sealed class ApiResource<out T> {
     data class Success<out T>(val value: T) : ApiResource<T>()
     data class Error(
@@ -34,4 +35,4 @@ suspend fun <T : Any> safeApiCall(
             }
         }
     }
-}
+}*/
