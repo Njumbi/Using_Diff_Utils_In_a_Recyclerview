@@ -24,7 +24,7 @@ The app displays a list of Disney character names and images using Compose:
 
 ## General Preview
 
-<img src =" " "height="50%" width="50%" title="explore" />
+<img src ="https://github.com/Njumbi/Using_Diff_Utils_In_a_Recyclerview/blob/compose_branch/app/src/main/res/drawable/compose.png" "height="50%" width="50%" title="explore" />
 
 ## Permissions
 
