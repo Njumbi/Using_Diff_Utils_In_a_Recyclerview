@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
             modifier = Modifier
                 .fillMaxSize()
                 .background(white)
-        ){
+        ) {
             errorMessage?.let {
                 Row(
                     modifier = Modifier
@@ -78,70 +78,70 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
-                if (characters?.data?.isNotEmpty() == true)
-                    LazyColumn(modifier = modifier.padding(vertical = 4.dp)) {
-                        items(items = characters.data) { character->
-                            /*  CharacterCard(character)*/
-                            Surface(
-                                color = white,
-                                modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
+            if (characters?.data?.isNotEmpty() == true) LazyColumn(
+                modifier = modifier.padding(
+                    vertical = 4.dp
+                )
+            ) {
+                items(items = characters.data) { character ->
+                    Surface(
+                        color = white,
+                        modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
+                    ) {
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(8.dp),
+                            elevation = CardDefaults.cardElevation(
+                                defaultElevation = 10.dp
+                            ),
+                            colors = CardDefaults.cardColors(
+                                containerColor = white,
+                            ),
+
                             ) {
-                                Card(
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .padding(8.dp),
-                                    elevation = CardDefaults.cardElevation(
-                                        defaultElevation = 10.dp
-                                    ),
-                                    colors = CardDefaults.cardColors(
-                                        containerColor = white,
-                                    ),
+                            Row(
+                                modifier = Modifier.padding(
+                                    vertical = 8.dp, horizontal = 8.dp
+                                )
+                            ) {
+                                if (character.profileImageUrl?.isNotBlank() == true) {
+                                    GlideImage(
+                                        model = character.profileImageUrl,
+                                        contentDescription = null,
+                                        contentScale = ContentScale.Crop,
+                                        modifier = Modifier
+                                            .size(100.dp)
+                                            .clip(CircleShape)
+                                            .border(2.dp, grey, CircleShape)
 
                                     )
-                                {
-                                    Row(
-                                        modifier = Modifier.padding(vertical = 8.dp, horizontal = 8.dp)
-                                    ) {
-                                        if (character.profileImageUrl?.isNotBlank() == true){
-                                            GlideImage(
-                                                model  = character.profileImageUrl,
-                                                contentDescription = null,
-                                                contentScale = ContentScale.Crop,
-                                                modifier = Modifier
-                                                    .size(100.dp)
-                                                    .clip(CircleShape)
-                                                    .border(2.dp, grey, CircleShape)
-
-                                            )
-                                        }
-                                        Spacer(modifier = Modifier.width(10.dp))
-                                        Text(
-                                            modifier = Modifier
-                                                .align(Alignment.CenterVertically)
-                                                .padding(horizontal = 5.dp),
-                                            color = black,
-                                            fontSize = 18.sp,
-                                            text = character.characterName.toString()
-                                        )
-                                    }
-
-
                                 }
+                                Spacer(modifier = Modifier.width(10.dp))
+                                Text(
+                                    modifier = Modifier
+                                        .align(Alignment.CenterVertically)
+                                        .padding(horizontal = 5.dp),
+                                    color = black,
+                                    fontSize = 18.sp,
+                                    text = character.characterName.toString()
+                                )
                             }
                         }
                     }
+                }
+            }
 
         }
 
     }
 
 
-
-  /*  @Preview
-    @Composable
-    fun charactersScreenPreview() {
-        ComposeUiTheme {
-            CharactersList()
-        }
-    }*/
+    /*  @Preview
+      @Composable
+      fun charactersScreenPreview() {
+          ComposeUiTheme {
+              CharactersList()
+          }
+      }*/
 }
