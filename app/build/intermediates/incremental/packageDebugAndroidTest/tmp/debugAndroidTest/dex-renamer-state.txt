@@ -1,0 +1,13 @@
+#Fri Jan 06 18:09:37 EAT 2023
+path.3=7/classes.dex
+path.2=3/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.3=/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/7/classes.dex
+base.2=/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/3/classes.dex
+base.1=/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.0=/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

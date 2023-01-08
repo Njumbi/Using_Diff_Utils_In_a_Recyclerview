@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ne/values-ne.xml",
+            "map": [
+                {
+                    "source": "/Users/florencenjumbi/.gradle/caches/transforms-3/914046cb3f31094ec707cb9a94ea02a3/transformed/ui-1.2.1/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,204,294,388,485,571,653,766,853,939,1005,1071,1161,1254,1331,1399",
+                        "endColumns": "98,89,93,96,85,81,112,86,85,65,65,89,92,76,67,119",
+                        "endOffsets": "199,289,383,480,566,648,761,848,934,1000,1066,1156,1249,1326,1394,1514"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,204,294,388,485,571,653,766,853,939,1005,1071,1161,1254,1432,1500",
+                        "endColumns": "98,89,93,96,85,81,112,86,85,65,65,89,92,76,67,119",
+                        "endOffsets": "199,289,383,480,566,648,761,848,934,1000,1066,1156,1249,1326,1495,1615"
+                    }
+                },
+                {
+                    "source": "/Users/florencenjumbi/.gradle/caches/transforms-3/6ef9615677cd76d6369a9dbfda8c8f62/transformed/core-1.8.0/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1331",
+                        "endColumns": "100",
+                        "endOffsets": "1427"
+                    }
+                }
+            ]
+        }
+    ]
+}

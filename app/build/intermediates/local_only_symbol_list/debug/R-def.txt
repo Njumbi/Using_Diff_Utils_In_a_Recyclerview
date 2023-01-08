@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable screenshot
+id profile_image
+id rv_characters
+id tv_character_name
+layout activity_main
+layout characters_items
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string check_internet
+string connection_error
+string disney
+string no_songs
+string server_error
+string socket_exception_error
+string something_error
+style Theme.Diff_Utils_Recyclerview_Example

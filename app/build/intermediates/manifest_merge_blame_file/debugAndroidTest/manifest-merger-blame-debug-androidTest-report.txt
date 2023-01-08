@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.diff_utils_recyclerview_example.test" >
+4
+5    <uses-sdk
+5-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:5:15-41
+7        android:targetSdkVersion="33" />
+7-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:11:5-15:93
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:13:22-53
+13        android:label="Tests for com.example.diff_utils_recyclerview_example"
+13-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:15:22-91
+14        android:targetPackage="com.example.diff_utils_recyclerview_example" />
+14-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:12:22-89
+15
+16    <queries>
+16-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+17        <package android:name="androidx.test.orchestrator" />
+17-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+17-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+18        <package android:name="androidx.test.services" />
+18-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+18-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+19        <package android:name="com.google.android.apps.common.testing.services" />
+19-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+19-->[androidx.test:runner:1.4.0] /Users/florencenjumbi/.gradle/caches/transforms-3/88ad6b595b1ef28a949cb3e71b236a6d/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+20    </queries>
+21
+22    <application android:debuggable="true" >
+22-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:7:5-9:19
+23        <uses-library android:name="android.test.runner" />
+23-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:8:9-60
+23-->/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10300602725572786456.xml:8:23-57
+24    </application>
+25
+26</manifest>

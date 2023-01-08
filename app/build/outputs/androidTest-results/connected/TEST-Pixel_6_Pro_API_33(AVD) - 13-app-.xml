@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.diff_utils_recyclerview_example.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.438" timestamp="2023-01-04T12:45:25" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_6_Pro_API_33(AVD) - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="useAppContext" classname="com.example.diff_utils_recyclerview_example.ExampleInstrumentedTest" time="0.001" />
+</testsuite>

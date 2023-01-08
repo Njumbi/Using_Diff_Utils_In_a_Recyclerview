@@ -1,0 +1,2 @@
+01-04 15:45:20.636 26939 26960 I TestRunner: started: useAppContext(com.example.diff_utils_recyclerview_example.ExampleInstrumentedTest)
+01-04 15:45:20.638 26939 26960 I TestRunner: finished: useAppContext(com.example.diff_utils_recyclerview_example.ExampleInstrumentedTest)

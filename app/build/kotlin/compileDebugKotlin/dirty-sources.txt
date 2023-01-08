@@ -1,0 +1,15 @@
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/mappers/DomainToDto.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/adapters/CharactersAdapter.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/repository/CharactersRepo.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/viewmodel/FetchCharactersViewModel.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/theme/ComposeUiTheme.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/remote/ApiService.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/responses/CharactersDto.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/App.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/responses/ApiResource.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/MainActivity.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/domain/models/CharacterModel.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/theme/Color.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/mappers/DtoToDomain.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/ui/Utils.kt
+/Users/florencenjumbi/AndroidStudioProjects/Using_Diff_Utils_In_a_Recyclerview/app/src/main/java/com/example/diff_utils_recyclerview_example/data/di/AppModule.kt
